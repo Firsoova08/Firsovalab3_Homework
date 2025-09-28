@@ -15,5 +15,14 @@ fun main() {
 //        }
 //    }
     //2
-
+print("введите строку:")
+    val str=readln()
+    val bykva="аеёиоуэюяы"
+    var count=0
+    for (i in str){
+        if (i in bykva){
+            count++
+        }
+    }
+    println(count)
 }
