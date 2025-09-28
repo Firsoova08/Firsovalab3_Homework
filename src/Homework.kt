@@ -15,14 +15,23 @@ fun main() {
 //        }
 //    }
     //2
-print("введите строку:")
-    val str=readln()
-    val bykva="аеёиоуэюяы"
-    var count=0
-    for (i in str){
-        if (i in bykva){
-            count++
-        }
+//print("введите строку:")
+//    val str=readln()
+//    val bykva="аеёиоуэюяы"
+//    var count=0
+//    for (i in str){
+//        if (i in bykva){
+//            count++
+//        }
+//    }
+//    println(count)
+    //3
+    print("Введите значение N: ")
+    var N=readln().toInt()
+    while(N>1){
+        N--
+        println(N)
+        break
     }
-    println(count)
+
 }
