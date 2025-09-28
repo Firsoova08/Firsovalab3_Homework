@@ -73,18 +73,20 @@ fun main() {
 //        println("${i+1}: $num")
 //    }
     //8
-    val num1=Random.nextInt(0,6)
-    println(num1)
-    val num2=Random.nextInt(0,6)
-    println(num2)
-    val num3=Random.nextInt(0,6)
-    println(num3)
-    if (num1==num2 && num2==num3){
-        println("Джекпот!")
-    }
-    else{
-        println("Попробуй еще раз")
-    }
+//    val num1=Random.nextInt(0,6)
+//    println(num1)
+//    val num2=Random.nextInt(0,6)
+//    println(num2)
+//    val num3=Random.nextInt(0,6)
+//    println(num3)
+//    if (num1==num2 && num2==num3){
+//        println("Джекпот!")
+//    }
+//    else{
+//        println("Попробуй еще раз")
+//    }
+    //9
+
 
 }
 
