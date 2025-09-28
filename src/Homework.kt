@@ -1,4 +1,6 @@
 import kotlin.random.Random
+import kotlin.random.nextInt
+
 fun main() {
     //1
 //    val number = Random.nextInt(1, 50)
@@ -37,26 +39,26 @@ fun main() {
 
 
     //5
-print("Введите ваше имя:")
-    val name=readln()
-    println("Сколько тебе лет?")
-    val age=readln().toInt()
-    println("Твой любимый цвет?")
-    val color=readln()
-    println("Твой любимый фильм?")
-    val movie=readln()
-    val feedbacks = listOf(
-        "Ты крутой!",
-        "Хорошая работа!",
-        "Отличные ответы!",
-        "Замечательно!",
-        "Ты лучший!",
-    )
-    println("Имя $name")
-    println("1.$age")
-    println("2.$color")
-    println("3.$movie")
-    println("Отзыв $feedbacks")
+//print("Введите ваше имя:")
+//    val name=readln()
+//    println("Сколько тебе лет?")
+//    val age=readln().toInt()
+//    println("Твой любимый цвет?")
+//    val color=readln()
+//    println("Твой любимый фильм?")
+//    val movie=readln()
+//    val feedbacks = listOf(
+//        "Ты крутой!",
+//        "Хорошая работа!",
+//        "Отличные ответы!",
+//        "Замечательно!",
+//        "Ты лучший!",
+//    )
+//    println("Имя $name")
+//    println("1.$age")
+//    println("2.$color")
+//    println("3.$movie")
+//    println("Отзыв $feedbacks")
     //6
 //    print("Введите значение N: ")
 //    val N=readln().toInt()
@@ -65,6 +67,11 @@ print("Введите ваше имя:")
 //        sum += i
 //    }
 //    println(sum)
+    //7
+//    repeat(10){
+//        i->val num= Random.nextInt(1,6)
+//        println("${i+1}: $num")
+//    }
 
 }
 
