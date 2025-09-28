@@ -26,12 +26,26 @@ fun main() {
 //    }
 //    println(count)
     //3
+//    print("Введите значение N: ")
+//    var N=readln().toInt()
+//    while(N>1){
+//        N--
+//        println(N)
+//        break
+//    }
+    //4
+
+
+    //5
+
+    //6
     print("Введите значение N: ")
-    var N=readln().toInt()
-    while(N>1){
-        N--
-        println(N)
-        break
+    val N=readln().toInt()
+    var sum=0
+    for (i in 1..N) {
+        sum += i
     }
+    println(sum)
 
 }
+
