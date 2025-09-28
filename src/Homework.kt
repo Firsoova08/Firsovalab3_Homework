@@ -3,7 +3,7 @@ import kotlin.random.nextInt
 
 fun main() {
     //1
-//    val number = Random.nextInt(1, 50)
+//    val number = Random.nextInt(1, 51)
 //    while (true) {
 //        print("Введи число: ")
 //        val input = readln().toInt()
@@ -69,9 +69,22 @@ fun main() {
 //    println(sum)
     //7
 //    repeat(10){
-//        i->val num= Random.nextInt(1,6)
+//        i->val num= Random.nextInt(1,7)
 //        println("${i+1}: $num")
 //    }
+    //8
+    val num1=Random.nextInt(0,6)
+    println(num1)
+    val num2=Random.nextInt(0,6)
+    println(num2)
+    val num3=Random.nextInt(0,6)
+    println(num3)
+    if (num1==num2 && num2==num3){
+        println("Джекпот!")
+    }
+    else{
+        println("Попробуй еще раз")
+    }
 
 }
 
