@@ -97,16 +97,22 @@ fun main() {
 //        println("Попробуй еще раз")
 //    }
     //9
-    var money = Random.nextInt(100, 1000)
-    while (money>0) {
-        val take = minOf((10..100).random(), money)
-        money -= take
-        println(money)
-    }
+//    var money = Random.nextInt(100, 1000)
+//    while (money>0) {
+//        val take = minOf((10..100).random(), money)
+//        money -= take
+//        println(money)
+//    }
 
    //10
-
+//     val days = listOf("Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс")
+//  for (day in days) {
+//        val temp = (-10..30).random()
+//       if (temp < 0) println("$day: $temp°C")
+//    }
 }
+
+
 
 
 
