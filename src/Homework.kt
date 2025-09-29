@@ -37,6 +37,17 @@ fun main() {
 //    }
     //4
 
+//    val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*"
+//    val password = buildString {
+//        append(('A'..'Z').random())
+//        append(('a'..'z').random())
+//        append(('0'..'9').random())
+//        append("!@#$%^&*".random())
+//        repeat((4..12).random()) {
+//                append(chars.random()) }
+//        }.toList().shuffled().joinToString("")
+//        println("Сгенерированный пароль: $password")
+//        println("Длина: ${password.length}")
 
     //5
 //print("Введите ваше имя:")
@@ -86,17 +97,6 @@ fun main() {
 //        println("Попробуй еще раз")
 //    }
     //9
-//    val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*"
-//    val password = buildString {
-//        append(('A'..'Z').random())
-//        append(('a'..'z').random())
-//        append(('0'..'9').random())
-//        append("!@#$%^&*".random())
-//        repeat((4..12).random()) {
-//                append(chars.random()) }
-//        }.toList().shuffled().joinToString("")
-//        println("Сгенерированный пароль: $password")
-//        println("Длина: ${password.length}")
 
    //10
 
