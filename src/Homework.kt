@@ -104,7 +104,7 @@ fun main() {
 //        println(money)
 //    }
 
-   //10
+    //10
 //     val days = listOf("Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс")
 //  for (day in days) {
 //        val temp = (-10..30).random()
