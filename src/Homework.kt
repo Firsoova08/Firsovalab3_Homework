@@ -97,6 +97,12 @@ fun main() {
 //        println("Попробуй еще раз")
 //    }
     //9
+    var money = Random.nextInt(100, 1000)
+    while (money>0) {
+        val take = minOf((10..100).random(), money)
+        money -= take
+        println(money)
+    }
 
    //10
 
