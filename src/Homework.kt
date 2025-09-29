@@ -37,17 +37,6 @@ fun main() {
 //    }
     //4
 
-//    val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*"
-//    val password = buildString {
-//        append(('A'..'Z').random())
-//        append(('a'..'z').random())
-//        append(('0'..'9').random())
-//        append("!@#$%^&*".random())
-//        repeat((4..12).random()) {
-//                append(chars.random()) }
-//        }.toList().shuffled().joinToString("")
-//        println("Сгенерированный пароль: $password")
-//        println("Длина: ${password.length}")
 
     //5
 //print("Введите ваше имя:")
@@ -97,27 +86,18 @@ fun main() {
 //        println("Попробуй еще раз")
 //    }
     //9
-//    var money = Random.nextInt(100, 1000)
-//    while (money>0) {
-//        val take = minOf((10..100).random(), money)
-//        money -= take
-//        println(money)
-//    }
-
-    //10
-//     val days = listOf("Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс")
-//  for (day in days) {
-//        val temp = (-10..30).random()
-//       if (temp < 0) println("$day: $temp°C")
-//    }
+//    val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*"
+//    val password = buildString {
+//        append(('A'..'Z').random())
+//        append(('a'..'z').random())
+//        append(('0'..'9').random())
+//        append("!@#$%^&*".random())
+//        repeat((4..12).random()) {
+//                append(chars.random()) }
+//        }.toList().shuffled().joinToString("")
+//        println("Сгенерированный пароль: $password")
+//        println("Длина: ${password.length}")
 }
-
-
-
-
-
-
-
 
 
 
